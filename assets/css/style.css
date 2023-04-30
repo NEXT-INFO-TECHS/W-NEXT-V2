@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: url("../images/bg/background.jpeg");
+    background-image: url("../images/bg/background.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -96,7 +96,8 @@ nav {
     background-image: url("../images/bg/bg_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .ngt-banner-header {
@@ -143,7 +144,7 @@ nav {
 }
 
 .ngt-about {
-    background-image: url("../images/bg/bg_2.jpg");
+    background-image: url("../images/bg/about-nex.webp");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -169,20 +170,18 @@ nav {
 }
 
 .ngt-about-card {
-    border-image: url('../images/about/border.png') 45;
-    border-style: solid;
-    border-width: 12px 40px 14px 40px;
-}
-
-.ngt-about-card-body {
-    background: url('../images/about/border-bg.png') no-repeat;
-    background-size: cover;
-    padding: 10px 10px;
-    border-radius: 5px;
+    border:3px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    height: 230px;
     color: white;
 }
 
-.ngt-about-card-body:hover {
+.ngt-about-card-body {
+    padding: 0 10px 0 10px;
+}
+
+.ngt-about-card:hover {
     background: url('../images/about/integrated-service-border-bg.png') no-repeat;
     background-size: cover;
     color: black;

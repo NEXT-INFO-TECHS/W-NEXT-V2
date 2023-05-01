@@ -434,9 +434,8 @@ nav {
 }
 
 .next-review {
-    background: url("../images/bg/bg_5.jpg") no-repeat;
+    background: url("../images/bg/testimonial.webp") no-repeat;
     background-size: cover;
-    opacity: 0.9;
 }
 
 .next-review-panel-outer {
@@ -489,9 +488,8 @@ nav {
 }
 
 .next-footer {
-    background: url("../images/bg/bg_6.jpg") no-repeat;
+    background: url("../images/bg/footer.webp") no-repeat;
     background-size: cover;
-    opacity: 0.9;
 }
 
 .next-footer-content {

@@ -60,20 +60,20 @@ nav {
     text-shadow: 0 0 10px #fff, 0 0 20px #46aef7, 0 0 30px #46aef7, 0 0 40px #0361ac, 0 0 50px #0361ac, 0 0 60px #0361ac, 0 0 70px #0361ac;
 }
 
-.ngt-logo {
+.next-logo {
     width: 100px;
 }
 
-.ngt-circle-btn {
+.next-circle-btn {
     border-radius: 50%;
     background-image: linear-gradient(140deg, #0dccff, #4760ff);
 }
 
-.ngt-circle-btn:hover {
+.next-circle-btn:hover {
     background-image: linear-gradient(140deg, #ffffff, #ffffff);
 }
 
-.ngt-btn {
+.next-btn {
     font-family: 'JuraBold', serif;
     border-radius: 25px;
     border: none;
@@ -86,13 +86,13 @@ nav {
     color: black;
 }
 
-.ngt-btn:hover {
+.next-btn:hover {
     background: url("../images/button/btn-hover.png") no-repeat;
     background-size: cover;
     color: black;
 }
 
-.ngt-banner {
+.next-banner {
     background-image: url("../images/bg/bg_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,19 +100,19 @@ nav {
     padding-bottom: 5rem;
 }
 
-.ngt-banner-header {
+.next-banner-header {
     font-family: 'MechanismoRegular', serif;
     color: white;
     font-size: 90px;
 }
 
-.ngt-banner-content {
+.next-banner-content {
     font-family: 'JuraBold', serif;
     font-size: 23px;
     color: white;
 }
 
-.ngt-banner-btn {
+.next-banner-btn {
     font-family: 'JuraBold', serif;
     border-radius: 50px;
     border: none;
@@ -125,51 +125,51 @@ nav {
     color: black;
 }
 
-.ngt-banner-btn:hover {
+.next-banner-btn:hover {
     background: url("../images/button/btn-hover.png") no-repeat;
     background-size: cover;
     color: black;
 }
 
-.ngt-banner-content-white {
+.next-banner-content-white {
     font-family: 'JuraBold', serif;
     font-size: 28px;
     color: white;
 }
 
-.ngt-banner-content-blue {
+.next-banner-content-blue {
     font-family: 'JuraBold', serif;
     font-size: 28px;
     color: #0dccff;
 }
 
-.ngt-about {
+.next-about {
     background-image: url("../images/bg/about-nex.webp");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
 }
 
-.ngt-about-header, .ngt-about-header-2, .ngt-about-header-3 {
+.next-about-header, .next-about-header-2, .next-about-header-3 {
     font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
-.ngt-about-content {
+.next-about-content {
     font-family: 'JuraBold', serif;
     font-size: 23px;
     color: white;
 }
 
-.ngt-primary-color {
+.next-primary-color {
     color: #01e4df;
 }
 
-.ngt-jura {
+.next-jura {
     font-family: 'JuraBold', serif;
 }
 
-.ngt-about-card {
+.next-about-card {
     border:3px solid black;
     border-radius: 15px;
     margin: 15px;
@@ -177,44 +177,44 @@ nav {
     color: white;
 }
 
-.ngt-about-card-body {
+.next-about-card-body {
     padding: 0 10px 0 10px;
 }
 
-.ngt-about-card:hover {
+.next-about-card:hover {
     background: url('../images/about/integrated-service-border-bg.png') no-repeat;
     background-size: cover;
     color: black;
 }
 
-.ngt-about-card-body:hover .ngt-logo-card-title {
+.next-about-card-body:hover .next-logo-card-title {
     color: black;
 }
 
-.ngt-card-title {
+.next-card-title {
     font-family: 'OrbitronBlack', serif;
 }
 
-.ngt-card-content {
+.next-card-content {
     font-family: 'JuraBold', serif;
     font-size: 14px;
     font-weight: 900;
 }
 
-.ngt-card-link {
+.next-card-link {
     font-family: 'JuraBold', serif;
 }
 
-.ngt-logo-card-title {
+.next-logo-card-title {
     font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
-.ngt-about-icon {
+.next-about-icon {
     height: 85px;
 }
 
-.ngt-about-btn {
+.next-about-btn {
     font-family: 'JuraBold', serif;
     border-radius: 50px;
     border: none;
@@ -226,214 +226,226 @@ nav {
     color: black;
 }
 
-.ngt-about-btn:hover {
+.next-about-btn:hover {
     background: url("../images/button/btn-hover.png") no-repeat;
     background-size: cover;
     color: black;
 }
 
-.ngt-services {
+.next-offer{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.next-time{
+    background: #5b5959;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.next-services {
     background-image: linear-gradient(270deg, #00a0b0d1, #2f68a2d1);
 }
 
-.ngt-service-title {
+.next-service-title {
     font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 50px;
 }
 
-.ngt-service-content {
+.next-service-content {
     font-family: 'JuraBold', serif;
     color: white;
 }
 
-.ngt-choose-us {
+.next-choose-us {
     background: rgba(2, 4, 27, 0.9);
 }
 
-.ngt-choose-bg {
+.next-choose-bg {
     background: url("../images/why-choose-us/bg.png") no-repeat;
     background-size: cover;
     height: 920px;
 }
 
-.ngt-why-choose-content {
+.next-why-choose-content {
     font-family: 'JuraBold', serif;
     color: white;
 }
 
-.ngt-why-choose-title {
+.next-why-choose-title {
     font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
-.ngt-why-choose-card-title {
+.next-why-choose-card-title {
     font-family: 'MechanismoRegular', serif;
     color: #01e4df;
 }
 
-.ngt-why-choose-card-content {
+.next-why-choose-card-content {
     font-family: 'JuraBold', serif;
     color: white;
 }
 
-.ngt-work {
+.next-work {
     background: url("../images/bg/bg_4.jpg") no-repeat;
     background-size: cover;
     opacity: 0.9;
 }
 
-.ngt-work-gallery-big {
+.next-work-gallery-big {
     border-image: url('../images/work/1.png') 20;
     border-style: solid;
     border-width: 12px 40px 14px 40px;
 }
 
-.ngt-work-gallery-small {
+.next-work-gallery-small {
     border-image: url('../images/work/2.png') 20;
     border-style: solid;
     border-width: 12px 40px 14px 40px;
 }
 
-.ngt-work-content {
+.next-work-content {
     font-family: 'JuraBold', serif;
     font-size: 25px;
     color: white;
 }
 
-.ngt-work-title {
+.next-work-title {
     font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
-.ngt-work-card-title {
+.next-work-card-title {
     font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
-.ngt-work-card-content {
+.next-work-card-content {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 20px;
 }
 
-.ngt-review {
+.next-review {
     background: url("../images/bg/bg_5.jpg") no-repeat;
     background-size: cover;
     opacity: 0.9;
 }
 
-.ngt-review-panel-outer {
+.next-review-panel-outer {
     border-image: url('../images/review/border.png') 20;
     border-style: solid;
     border-width: 15px 25px 18px 25px;
 }
 
-.ngt-review-panel-inner {
+.next-review-panel-inner {
     background: #006ee952;
     padding: 25px 30px;
 }
 
-.ngt-reviewer-outer {
+.next-reviewer-outer {
     background: url("../images/review/rectengular.png") no-repeat;
     background-size: contain;
     height: 80px;
 }
 
-.ngt-review-content {
+.next-review-content {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 25px;
     height: 130px;
 }
 
-.ngt-reviewer-name {
+.next-reviewer-name {
     font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
-.ngt-reviewer-post {
+.next-reviewer-post {
     font-family: 'JuraBold', serif;
     color: white;
 }
 
-.ngt-review-start {
+.next-review-start {
     background-image: linear-gradient(30deg, #1887e9, #2dfbff, #e0fbff);
 }
 
-.ngt-review-start-title {
+.next-review-start-title {
     font-family: 'OrbitronBlack', serif;
     color: white;
 }
 
-.ngt-review-start-content {
+.next-review-start-content {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 24px;
 }
 
-.ngt-footer {
+.next-footer {
     background: url("../images/bg/bg_6.jpg") no-repeat;
     background-size: cover;
     opacity: 0.9;
 }
 
-.ngt-footer-content {
+.next-footer-content {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 24px;
 }
 
-.ngt-footer-title {
+.next-footer-title {
     font-family: 'MechanismoRegular', serif;
     color: white;
     font-size: 50px;
 }
 
-.ngt-footer-call {
+.next-footer-call {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 30px;
 }
 
-.ngt-footer-menu-outside {
+.next-footer-menu-outside {
     border-top: 45px solid rgba(0, 120, 255, 0.41);
     border-bottom: 45px solid rgba(0, 120, 255, 0.41);
 }
 
-.ngt-footer-menu-inside {
+.next-footer-menu-inside {
     background: rgba(0, 120, 255, 0.82);
 }
 
-.ngt-footer-copyright {
+.next-footer-copyright {
     font-family: 'JuraBold', serif;
     color: white;
 }
 
-.ngt-footer-menu-text {
+.next-footer-menu-text {
     font-family: 'JuraBold', serif;
     color: white;
     font-size: 28px;
 }
 
-.ngt-footer-menu-title {
+.next-footer-menu-title {
     font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 28px;
 }
 
-.ngt-footer-card-title {
+.next-footer-card-title {
     font-family: 'OrbitronBlack', serif;
     color: white;
 }
 
-.ngt-footer-card-content {
+.next-footer-card-content {
     font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 12px;
 }
 
-ul.ngt-footer-menu-list {
+ul.next-footer-menu-list {
     list-style: none;
     font-family: 'OrbitronBlack', serif;
     color: white;
@@ -445,126 +457,133 @@ ul.ngt-footer-menu-list {
     display: none !important;
 }
 
+
+.next-footer-social{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
 @media only screen and (max-width: 550px) {
-    .ngt-banner-header {
+    .next-banner-header {
         font-size: 35px;
         text-align: center;
     }
 
-    .ngt-banner-content {
+    .next-banner-content {
         font-size: 15px;
         text-align: center;
     }
 
-    .ngt-banner-button-outer {
+    .next-banner-button-outer {
         text-align: center;
     }
 
-    .ngt-banner-content-white {
+    .next-banner-content-white {
         font-size: 14px;
     }
 
-    .ngt-banner-content-blue {
+    .next-banner-content-blue {
         font-size: 14px;
     }
 
-    .ngt-about-header {
+    .next-about-header {
         font-size: 24px;
     }
 
-    .ngt-about-header-2 {
+    .next-about-header-2 {
         font-size: 20px;
     }
 
-    .ngt-about-content {
+    .next-about-content {
         font-size: 14px;
     }
 
-    .ngt-about-header-3 {
+    .next-about-header-3 {
         font-size: 16px;
     }
 
-    .ngt-banner-btn {
+    .next-banner-btn {
         font-size: 15px;
         padding: 4px 30px;
     }
 
-    .ngt-about-btn {
+    .next-about-btn {
         font-size: 15px;
         padding: 4px 30px;
         margin-top: .75em;
     }
 
-    .ngt-choose-bg {
+    .next-choose-bg {
         height: 315px;
     }
 
-    .ngt-why-choose-title {
+    .next-why-choose-title {
         font-size: 20px;
         text-align: center;
     }
 
-    .ngt-why-choose-content {
+    .next-why-choose-content {
         padding-top: 1.5em;
         font-size: 14px;
         margin-bottom: unset;
         text-align: center;
     }
 
-    .ngt-work-content {
+    .next-work-content {
         font-size: 15px;
     }
 
-    .ngt-work-title {
+    .next-work-title {
         font-size: 18px;
     }
 
-    .ngt-review-content {
+    .next-review-content {
         font-size: 15px;
     }
 
-    .ngt-reviewer-name {
+    .next-reviewer-name {
         font-size: 12px;
         margin-bottom: unset;
     }
 
-    .ngt-reviewer-post{
+    .next-reviewer-post{
         font-size: 9px;
     }
 
-    .ngt-review-start-title{
+    .next-review-start-title{
         font-size: 18px;
     }
 
-    .ngt-review-start-content{
+    .next-review-start-content{
         font-size: 16px;
     }
 
-    .ngt-footer-content{
+    .next-footer-content{
         font-size: 16px;
     }
 
-    .ngt-footer-title{
+    .next-footer-title{
         font-size: 24px;
     }
 
-    .ngt-footer-call{
+    .next-footer-call{
         font-size: 16px;
     }
 
-    .ngt-footer-menu-text{
+    .next-footer-menu-text{
         margin-top: .75em;
         font-size: 16px;
         padding-left: 2.5em;
         padding-right: 2.5em;
     }
 
-    .ngt-footer-btn-outer{
+    .next-footer-btn-outer{
         text-align: center;
         margin-bottom: 1.5em;
     }
 
-    .ngt-footer-copyright{
+    .next-footer-copyright{
         font-size: 14px;
     }
 
@@ -572,7 +591,7 @@ ul.ngt-footer-menu-list {
         --bs-gutter-x: 0.5rem;
     }
 
-    .fa-solid.fa-bars.ngt-primary-color{
+    .fa-solid.fa-bars.next-primary-color{
         font-size: 30px;
     }
 
@@ -580,16 +599,16 @@ ul.ngt-footer-menu-list {
         display: flex !important;
     }
 
-    .ngt-colapse-circle-btn {
+    .next-colapse-circle-btn {
         border-radius: 50%;
         background-image: linear-gradient(140deg, #0dccff, #4760ff);
     }
 
-    .ngt-colapse-circle-btn:hover {
+    .next-colapse-circle-btn:hover {
         background-image: linear-gradient(140deg, #ffffff, #ffffff);
     }
 
-    .ngt-colapse-btn{
+    .next-colapse-btn{
         font-family: 'JuraBold', serif;
         border-radius: 25px;
         border: none;
@@ -601,13 +620,13 @@ ul.ngt-footer-menu-list {
         color: black;
     }
 
-    .ngt-colapse-btn:hover {
+    .next-colapse-btn:hover {
         background: url("../images/button/btn-hover.png") no-repeat;
         background-size: cover;
         color: black;
     }
 
-    .ngt-nav-icon{
+    .next-nav-icon{
         display: none !important;
     }
 }

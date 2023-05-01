@@ -48,7 +48,7 @@ for (let i = 0; i < btns.length; i++) {
 
 let currentSlide = 0;
 
-const slides = document.querySelectorAll(".ngt-review-panel-outer .ngt-review-panel-inner");
+const slides = document.querySelectorAll(".next-review-panel-outer .next-review-panel-inner");
 
 for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";

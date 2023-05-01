@@ -9,13 +9,23 @@
 }
 
 @font-face {
-    font-family: 'JuraBold';
-    src: url('../fonts/JuraBold.ttf');
+    font-family: 'HenjuBold';
+    src: url('../fonts/HenjuBold.otf');
 }
 
 @font-face {
-    font-family: 'MechanismoRegular';
-    src: url('../fonts/MechanismoRegular.otf');
+    font-family: 'BlackthornsBlack';
+    src: url('../fonts/BlackthornsBlack.ttf');
+}
+
+@font-face {
+    font-family: 'BlackthornsRegular';
+    src: url('../fonts/BlackthornsRegular.ttf');
+}
+
+@font-face {
+    font-family: 'MyriadHebrewRegular';
+    src: url('../fonts/MyriadHebrewRegular.otf');
 }
 
 @font-face {
@@ -46,13 +56,14 @@ nav {
 }
 
 .bg-nav {
+    padding: 20px 0 20px 0;
     background: rgba(0, 0, 0, 0.7);
 }
 
 .nav-link {
     margin-right: 2.5em;
     color: white;
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
 }
 
 .nav-link:hover, .active {
@@ -73,14 +84,49 @@ nav {
     background-image: linear-gradient(140deg, #ffffff, #ffffff);
 }
 
-.next-btn {
-    font-family: 'JuraBold', serif;
+.next-btn-header {
+    font-family: 'BlackthornsRegular', serif;
     border-radius: 25px;
     border: none;
-    font-weight: 700;
-    font-size: 19px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-weight: 550;
+    padding: 10px 40px 12px 40px;
+    background: url("../images/button/btn.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-btn-header:hover {
+    background: url("../images/button/btn-hover.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-btn-footer {
+    font-family: 'BlackthornsRegular', serif;
+    border-radius: 25px;
+    border: none;
+    font-weight: 550;
+    font-size: 25px;
+    padding: 12px 70px 12px 70px;
+    background: url("../images/button/btn.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-btn-footer:hover {
+    background: url("../images/button/btn-hover.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-btn {
+    font-family: 'BlackthornsRegular', serif;
+    border-radius: 25px;
+    border: none;
+    font-weight: 550;
+    font-size: 27px;
+    width: 250px;
+    padding: 10px 40px 12px 40px;
     background: url("../images/button/btn.png") no-repeat;
     background-size: cover;
     color: black;
@@ -97,29 +143,35 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
 }
 
 .next-banner-header {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
     color: white;
     font-size: 90px;
 }
 
+.next-banner-content-header{
+    font-family: 'HenjuBold', serif;
+    font-size: 35px;
+    color: white;
+    margin-bottom: unset;
+}
+
 .next-banner-content {
-    font-family: 'JuraBold', serif;
-    font-size: 23px;
+    font-family: 'HenjuBold', serif;
+    font-size: 30px;
     color: white;
 }
 
 .next-banner-btn {
-    font-family: 'JuraBold', serif;
+    font-family: 'BlackthornsBlack', serif;
     border-radius: 50px;
     border: none;
     font-weight: 700;
     font-size: 28px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 20px 60px;
     background: url("../images/button/btn.png") no-repeat;
     background-size: cover;
     color: black;
@@ -132,13 +184,13 @@ nav {
 }
 
 .next-banner-content-white {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     font-size: 28px;
     color: white;
 }
 
 .next-banner-content-blue {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     font-size: 28px;
     color: #0dccff;
 }
@@ -151,29 +203,64 @@ nav {
 }
 
 .next-about-header, .next-about-header-2, .next-about-header-3 {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
     color: white;
 }
 
+.next-about-content-header {
+    width: 290px;
+    margin: auto;
+    font-family: 'BlackthornsRegular', serif;
+    font-size: 35px;
+    color: white;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(45deg, #46aef7, #1dd5e6) 1;
+
+}
+
 .next-about-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     font-size: 23px;
     color: white;
 }
 
 .next-primary-color {
-    color: #01e4df;
+    background-image: linear-gradient(to right,#46aef7 0%, #1dd5e6 36%, #1c8ddc 65%, #04a0ad 100%);
+    font-family: 'BlackthornsBlack', serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: hue 6s infinite linear;
+}
+
+@keyframes hue {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
 .next-jura {
-    font-family: 'JuraBold', serif;
+    font-family: 'BlackthornsBlack', serif;
+}
+
+.next-hebrew {
+    font-family: 'MyriadHebrewRegular', serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.next-hebrew-regular {
+    font-family: 'MyriadHebrewRegular', serif;
+    font-weight: 400;
 }
 
 .next-about-card {
-    border:3px solid black;
+    border:3px solid #46aef7;
     border-radius: 15px;
-    margin: 15px;
-    height: 230px;
+    margin: 8px;
+    height: 255px;
     color: white;
 }
 
@@ -193,16 +280,17 @@ nav {
 
 .next-card-title {
     font-family: 'OrbitronBlack', serif;
+    font-size: 32px;
 }
 
 .next-card-content {
-    font-family: 'JuraBold', serif;
-    font-size: 14px;
-    font-weight: 900;
+    font-family: 'MyriadHebrewRegular', serif;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .next-card-link {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
 }
 
 .next-logo-card-title {
@@ -215,12 +303,12 @@ nav {
 }
 
 .next-about-btn {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     border-radius: 50px;
     border: none;
     font-weight: 700;
     font-size: 28px;
-    padding: 10px 55px;
+    padding: 18px 55px 10px 55px;
     background: url("../images/button/btn.png") no-repeat;
     background-size: cover;
     color: black;
@@ -240,8 +328,9 @@ nav {
 
 .next-time{
     background: #5b5959;
-    border-radius: 3px;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 15px 12px 12px 12px;
+    margin: 12px;
 }
 
 .next-services {
@@ -255,7 +344,7 @@ nav {
 }
 
 .next-service-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
 }
 
@@ -270,22 +359,22 @@ nav {
 }
 
 .next-why-choose-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
 }
 
 .next-why-choose-title {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
     color: white;
 }
 
 .next-why-choose-card-title {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
     color: #01e4df;
 }
 
 .next-why-choose-card-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
 }
 
@@ -308,13 +397,19 @@ nav {
 }
 
 .next-work-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     font-size: 25px;
     color: white;
 }
 
 .next-work-title {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
+    color: white;
+    font-size: 60px;
+}
+
+.next-work-title-footer {
+    font-family: 'BlackthornsBlack', serif;
     color: white;
 }
 
@@ -324,7 +419,7 @@ nav {
 }
 
 .next-work-card-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 20px;
 }
@@ -353,7 +448,7 @@ nav {
 }
 
 .next-review-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 25px;
     height: 130px;
@@ -365,7 +460,7 @@ nav {
 }
 
 .next-reviewer-post {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
 }
 
@@ -379,7 +474,7 @@ nav {
 }
 
 .next-review-start-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 24px;
 }
@@ -391,19 +486,19 @@ nav {
 }
 
 .next-footer-content {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 24px;
 }
 
 .next-footer-title {
-    font-family: 'MechanismoRegular', serif;
+    font-family: 'BlackthornsBlack', serif;
     color: white;
     font-size: 50px;
 }
 
 .next-footer-call {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 30px;
 }
@@ -418,12 +513,12 @@ nav {
 }
 
 .next-footer-copyright {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
 }
 
 .next-footer-menu-text {
-    font-family: 'JuraBold', serif;
+    font-family: 'HenjuBold', serif;
     color: white;
     font-size: 28px;
 }
@@ -609,7 +704,7 @@ ul.next-footer-menu-list {
     }
 
     .next-colapse-btn{
-        font-family: 'JuraBold', serif;
+        font-family: 'HenjuBold', serif;
         border-radius: 25px;
         border: none;
         font-weight: 700;

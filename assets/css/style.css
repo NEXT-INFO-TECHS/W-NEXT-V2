@@ -139,7 +139,7 @@ nav {
 }
 
 .next-banner {
-    background-image: url("../images/bg/bg_1.jpg");
+    background-image: url("../images/bg/intro.webp");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5rem;
@@ -378,10 +378,19 @@ nav {
     color: white;
 }
 
-.next-work {
-    background: url("../images/bg/bg_4.jpg") no-repeat;
+.next-web {
+    background: url("../images/bg/web.webp") no-repeat;
     background-size: cover;
-    opacity: 0.9;
+}
+
+.next-graphic {
+    background: url("../images/bg/graphic.webp") no-repeat;
+    background-size: cover;
+}
+
+.next-ai {
+    background: url("../images/bg/ai.webp") no-repeat;
+    background-size: cover;
 }
 
 .next-work-gallery-big {

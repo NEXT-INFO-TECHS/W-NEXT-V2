@@ -34,43 +34,48 @@ let btns = btnContainer.getElementsByClassName("nav-item");
 // Loop through the buttons and add the active class to the current/clicked button
 for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
-        let current = document.getElementsByClassName("active");
+        let current = document.getElementsByClassName("active-nav");
 
         // If there's no active class
         if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
+            current[0].className = current[0].className.replace(" active-nav", "");
         }
 
         // Add the active class to the current/clicked button
-        this.className += " active";
+        this.className += " active-nav";
     });
 }
 
-let currentSlide = 0;
+(function () {
+    "use strict";
 
-const slides = document.querySelectorAll(".next-review-panel-outer .next-review-panel-inner");
+    var carousels = function () {
+        $(".owl-carousel1").owlCarousel({
+            loop: true,
+            center: true,
+            margin: 0,
+            responsiveClass: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                680: {
+                    items: 2,
+                    nav: false,
+                    loop: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true
+                }
+            }
+        });
+    };
 
-for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-}
-
-slides[currentSlide].style.display = "block";
-
-function showSlide() {
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.transition = 'all 0.1s ease-out 0.1s';
-        slides[i].style.display = "none";
-    }
-
-    slides[currentSlide].style.display = "block";
-    slides[currentSlide].style.transition = 'all 1s ease-in 0.1s';
-
-    currentSlide+=1;
-
-    if(slides.length==currentSlide){
-        currentSlide = 0;
-    }
-}
-
-setInterval(showSlide, 5000);
+    (function ($) {
+        carousels();
+    })(jQuery);
+})();
 

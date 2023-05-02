@@ -262,6 +262,8 @@ nav {
     margin: 8px;
     height: 255px;
     color: white;
+    background: url('../images/card/web-n.webp') no-repeat;
+    background-size: cover;
 }
 
 .next-about-card-body {
@@ -269,7 +271,67 @@ nav {
 }
 
 .next-about-card:hover {
-    background: url('../images/about/integrated-service-border-bg.png') no-repeat;
+    background: url('../images/card/web-h.webp') no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-web-card {
+    border:3px solid #46aef7;
+    border-radius: 15px;
+    margin: 8px;
+    height: 255px;
+    color: white;
+    background: url('../images/card/web-n.webp') no-repeat;
+    background-size: cover;
+}
+
+.next-web-card-body {
+    padding: 0 10px 0 10px;
+}
+
+.next-web-card:hover {
+    background: url('../images/card/web-h.webp') no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-graphic-card {
+    border:3px solid #46aef7;
+    border-radius: 15px;
+    margin: 8px;
+    height: 255px;
+    color: white;
+    background: url('../images/card/graphic-n.webp') no-repeat;
+    background-size: cover;
+}
+
+.next-graphic-card-body {
+    padding: 0 10px 0 10px;
+}
+
+.next-graphic-card:hover {
+    background: url('../images/card/graphic-h.webp') no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.next-ai-card {
+    border:3px solid #46aef7;
+    border-radius: 15px;
+    margin: 8px;
+    height: 255px;
+    color: white;
+    background: url('../images/card/ai-n.webp') no-repeat;
+    background-size: cover;
+}
+
+.next-ai-card-body {
+    padding: 0 10px 0 10px;
+}
+
+.next-ai-card:hover {
+    background: url('../images/card/ai-h.webp') no-repeat;
     background-size: cover;
     color: black;
 }
@@ -561,7 +623,7 @@ ul.next-footer-menu-list {
 
 
 .next-footer-social{
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 15px;
 }

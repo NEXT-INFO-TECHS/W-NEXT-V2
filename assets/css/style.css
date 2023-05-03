@@ -106,7 +106,7 @@ nav {
     font-family: 'BlackthornsRegular', serif;
     border-radius: 25px;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 23px;
     padding: 12px 70px 12px 70px;
     background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
@@ -876,6 +876,7 @@ ul.next-footer-menu-list {
     font-size: 18px;
     color: #555;
     padding-bottom: 15px;
+    font-family: 'MyriadHebrewRegular';
 }
 .gtco-testimonials .active {
     opacity: 0.5;

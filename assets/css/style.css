@@ -87,63 +87,66 @@ nav {
 .next-btn-header {
     font-family: 'BlackthornsRegular', serif;
     border-radius: 25px;
-    border: none;
     font-weight: 550;
     padding: 10px 40px 12px 40px;
-    background: url("../images/button/btn-2.webp") no-repeat;
+    background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
     color: black;
+    border:3px solid #6cfffa;
 }
 
 .next-btn-header:hover {
-    background: url("../images/button/btn-1.webp") no-repeat;
+    background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
+    border:3px solid #6cfffa;
 }
 
 .next-btn-footer {
     font-family: 'BlackthornsRegular', serif;
     border-radius: 25px;
-    border: none;
     font-weight: 550;
     font-size: 25px;
     padding: 12px 70px 12px 70px;
-    background: url("../images/button/btn-2.webp") no-repeat;
+    background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
     color: black;
+    border:3px solid #6cfffa;
 }
 
 .next-btn-footer:hover {
-    background: url("../images/button/btn-1.webp") no-repeat;
+    background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
+    border:3px solid #6cfffa;
 }
 
 .next-btn {
     font-family: 'BlackthornsRegular', serif;
     border-radius: 25px;
-    border: none;
     font-weight: 550;
     font-size: 27px;
-    width: 250px;
+    width: 260px;
     padding: 10px 40px 12px 40px;
-    background: url("../images/button/btn-2.webp") no-repeat;
+    background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
     color: black;
+    border:3px solid #6cfffa;
 }
 
 .next-btn:hover {
-    background: url("../images/button/btn-1.webp") no-repeat;
+    background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
+    border:3px solid #6cfffa;
 }
 
 .next-banner {
     background-image: url("../images/bg/intro.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
 }
 
 .next-banner-header {
@@ -168,19 +171,20 @@ nav {
 .next-banner-btn {
     font-family: 'BlackthornsBlack', serif;
     border-radius: 50px;
-    border: none;
     font-weight: 700;
-    font-size: 28px;
-    padding: 20px 60px;
-    background: url("../images/button/btn-2.webp") no-repeat;
+    font-size: 25px;
+    padding: 15px 55px;
+    background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
     color: black;
+    border:3px solid #6cfffa;
 }
 
 .next-banner-btn:hover {
-    background: url("../images/button/btn-1.webp") no-repeat;
+    background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
+    border:3px solid #6cfffa;
 }
 
 .next-banner-content-white {
@@ -230,6 +234,10 @@ nav {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-animation: hue 6s infinite linear;
+}
+
+.next-mobile-menu{
+    color: #1dd5e6;
 }
 
 @keyframes hue {
@@ -360,19 +368,20 @@ nav {
 .next-about-btn {
     font-family: 'HenjuBold', serif;
     border-radius: 50px;
-    border: none;
     font-weight: 700;
     font-size: 28px;
     padding: 18px 55px 10px 55px;
-    background: url("../images/button/btn-2.webp") no-repeat;
+    background: url("../images/button/btn.webp") no-repeat;
     background-size: cover;
     color: black;
+    border:3px solid #6cfffa;
 }
 
 .next-about-btn:hover {
-    background: url("../images/button/btn-1.webp") no-repeat;
+    background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
+    border:3px solid #6cfffa;
 }
 
 .next-offer{
@@ -472,6 +481,13 @@ nav {
     font-size: 60px;
 }
 
+.next-review-title {
+    font-family: 'MyriadHebrewRegular', serif;
+    color: white;
+    font-size: 58px;
+    font-weight: 700;
+}
+
 .next-work-title-footer {
     font-family: 'BlackthornsBlack', serif;
     color: white;
@@ -562,7 +578,7 @@ nav {
 .next-footer-call {
     font-family: 'HenjuBold', serif;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .next-footer-menu-outside {
@@ -768,19 +784,20 @@ ul.next-footer-menu-list {
     .next-colapse-btn{
         font-family: 'HenjuBold', serif;
         border-radius: 25px;
-        border: none;
         font-weight: 700;
         font-size: 12px;
         padding: 10px 20px;
-        background: url("../images/button/btn-2.webp") no-repeat;
+        background: url("../images/button/btn.webp") no-repeat;
         background-size: cover;
         color: black;
+        border:3px solid #6cfffa;
     }
 
     .next-colapse-btn:hover {
-        background: url("../images/button/btn-1.webp") no-repeat;
+        background: url("../images/button/btn-h.webp") no-repeat;
         background-size: cover;
-        color: black;
+        color: white;
+        border:3px solid #6cfffa;
     }
 
     .next-nav-icon{
@@ -827,13 +844,14 @@ ul.next-footer-menu-list {
     width: 12px;
     margin-bottom: -1px;
 }
+
 .gtco-testimonials .card {
     background: #fff;
-    box-shadow: 0 8px 30px -7px #c9dff0;
+    box-shadow: 0 8px 30px -7px #6cfffa;
     margin: 0 20px;
     padding: 0 10px;
     border-radius: 20px;
-    border: 0;
+    border: 3px solid #6cfffa;
 }
 .gtco-testimonials .card .card-img-top {
     max-width: 100px;
@@ -888,4 +906,43 @@ ul.next-footer-menu-list {
 }
 .owl-carousel button.owl-dot {
     outline: 0;
+}
+
+.next-form-card{
+    border-radius: 25px;
+    font-family: 'BlackthornsBlack', serif;
+    font-size: 35px;
+    color: white;
+    border: 3px solid #46aef7;
+    background: rgb(5 31 94 / 50%);
+    -webkit-box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+    -moz-box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+    box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+}
+
+::placeholder {
+    color: black !important;
+    opacity: 1; /* Firefox */
+}
+
+.next-form-input{
+    border: 3px solid #0FEEFFCC;
+    height: 50px;
+    background: rgb(15 238 255 / 80%);
+    color: black;
+    opacity: 1;
+    font-weight: 400;
+    font-family: 'HenjuBold', serif;
+    font-size: 18px;
+}
+
+.next-form-input:focus {
+    color: black;
+    background-color: #ffffff;
+    border-color: #0FEEFFCC;
+}
+
+.next-footer-social-text{
+    font-family: 'HenjuBold', serif;
+    font-size: 18px;
 }

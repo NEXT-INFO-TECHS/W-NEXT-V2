@@ -645,6 +645,28 @@ ul.next-footer-menu-list {
 }
 
 @media only screen and (max-width: 550px) {
+    .next-hebrew {
+        font-size: 20px;
+    }
+
+    .next-hebrew-regular {
+        font-size: 18px;
+    }
+
+    .next-time {
+        margin: auto;
+        background: #43dee7;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 10px 12px 15px 10px;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        font-size: 15px;
+        color: black;
+        font-family: 'HenjuBold',Serif;
+    }
+
     .next-banner-header {
         font-size: 35px;
         text-align: center;

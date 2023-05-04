@@ -102,7 +102,7 @@ $(document).ready(function () {
     });
 });
 
-let countDownDate = new Date("Jul 25, 2023 16:37:52").getTime();
+let countDownDate = new Date("Jul 25, 2025 00:00:00").getTime();
 
 let myfunc = setInterval(function() {
     let now = new Date().getTime();

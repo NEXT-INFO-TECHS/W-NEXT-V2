@@ -765,8 +765,27 @@ ul.next-footer-menu-list {
         font-size: 16px;
     }
 
+    .next-review-title {
+        font-size: 30px;
+    }
+
+    .next-footer-social-text {
+        font-size: 15px;
+    }
+
+    .next-btn{
+        border-radius: 15px;
+        font-size: 15px;
+        width: 200px;
+        padding: 6px 30px 6px 30px;
+    }
+
+    .next-btn-footer {
+        font-size: 15px;
+    }
+
     .next-footer-title{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .next-footer-call{

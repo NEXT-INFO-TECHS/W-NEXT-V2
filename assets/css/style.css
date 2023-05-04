@@ -261,7 +261,7 @@ nav {
 
 .next-hebrew-regular {
     font-family: 'MyriadHebrewRegular', serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .next-about-card {
@@ -702,7 +702,7 @@ ul.next-footer-menu-list {
     }
 
     .next-about-header-3 {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     .next-banner-btn {
@@ -712,8 +712,9 @@ ul.next-footer-menu-list {
 
     .next-about-btn {
         font-size: 15px;
-        padding: 4px 30px;
-        margin-top: .75em;
+        padding: 8px 30px 6px 30px;
+        margin-top: 0.75em;
+        width: 200px;
     }
 
     .next-choose-bg {
@@ -737,7 +738,7 @@ ul.next-footer-menu-list {
     }
 
     .next-work-title {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .next-review-content {

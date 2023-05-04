@@ -134,7 +134,20 @@ nav {
     border:3px solid #6cfffa;
 }
 
-.next-btn:hover {
+.contact-btn {
+    font-family: 'BlackthornsRegular', serif;
+    border-radius: 25px;
+    font-weight: 550;
+    font-size: 16px;
+    width: 240px;
+    padding: 10px 40px 12px 40px;
+    background: url(../images/button/btn.webp) no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid #6cfffa;
+}
+
+.next-btn:hover,.contact-btn:hover {
     background: url("../images/button/btn-h.webp") no-repeat;
     background-size: cover;
     color: white;
@@ -1164,3 +1177,9 @@ ul.next-footer-menu-list {
     color: #46f8fe;
 }
 
+.next-title{
+    background-image: url("../images/bg/ai.webp");
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}

@@ -1,0 +1,10 @@
+ErrorDocument 404 http://localhost/W-NEXT-V2/404.html
+
+RewriteEngine on
+
+RewriteRule ^Home index.html [NE,L]
+
+RewriteRule ^Contact contact.html [NE,L]
+
+
+

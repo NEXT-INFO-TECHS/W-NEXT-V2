@@ -1183,3 +1183,19 @@ ul.next-footer-menu-list {
     padding-top: 10rem;
     padding-bottom: 4rem;
 }
+
+.slick-arrow {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-arrow:before {
+    font-size: 50px;
+}
+.slick-next {
+    right: 0;
+}
+.slick-prev {
+    left: 0;
+}

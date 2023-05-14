@@ -100,6 +100,27 @@ $(document).ready(function () {
             }
         }]
     });
+
+    $('.blogs').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1500,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
 });
 
 let countDownDate = new Date("Jul 25, 2025 00:00:00").getTime();

@@ -69,7 +69,7 @@
                         <a class="nav-link" href="#automation">AUTOMATION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                        <a class="nav-link" href="Contact">CONTACT</a>
                     </li>
                 </ul>
                 <form class="d-flex next-nav-icon" role="search">

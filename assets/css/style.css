@@ -568,6 +568,7 @@ nav {
 }
 
 .next-review-start-title {
+    font-size: 50px;
     font-family: 'OrbitronBlack', serif;
     color: white;
 }
@@ -768,7 +769,7 @@ ul.next-footer-menu-list {
     }
 
     .next-review-start-title{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .next-review-start-content{
@@ -1198,4 +1199,26 @@ ul.next-footer-menu-list {
 }
 .slick-prev {
     left: 0;
+}
+
+
+.arrow {
+    transform: translate(0px, 3px);
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.next-contact-card{
+    background: #46e4ee;
 }

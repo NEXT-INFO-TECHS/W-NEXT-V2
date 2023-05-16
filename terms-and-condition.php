@@ -20,7 +20,7 @@
     <meta content="website" property="og:type"/>
 
 
-    <title>CONTACT | NEXT INFO TECHS</title>
+    <title>TERMS AND CONDITION | NEXT INFO TECHS</title>
     <link href="assets/images/logo/favicon.ico" rel="icon" type="image/x-icon">
 
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
@@ -88,53 +88,87 @@
 <!-- Contact Start -->
 <section class="next-web">
     <div class="container pt-5 pb-5 text-center">
+        <h1 class="next-work-title text-start pt-5 pb-4">
+            Contact Us
+        </h1>
         <div class="row text-start mt-4">
             <div class="col-xl-6 mb-4">
-                <h1 class="next-work-title text-start pt-5 pb-4">
-                    Contact Us
-                </h1>
                 <div class="row mt-5">
                     <div class="col-12 mb-5">
-                        <div>
-                            <a href="https://www.facebook.com/">
-                                <img alt="" class="img-fluid" src="assets/images/contact/icon/facebook.png"/>
-                            </a>
-                            <a class="btn btn-success contact-btn ms-5"
-                               href="#">
-                                Contact now
-                            </a>
+                        <div class="card next-contact-card">
+                            <div class="row">
+                                <div class="col-2 d-flex justify-content-center align-items-center">
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa-solid fa-envelopes-bulk text-white fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="text-white mt-3">
+                                        Mailbox
+                                    </h3>
+                                    <p class="text-white">
+                                        <b>contact@nextinfotechs.com</b>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="text-white mt-3">
-                            contact@nextinfotechs.com
-                        </h3>
                     </div>
                     <div class="col-12 mb-5">
-                        <div>
-                            <a href="https://www.facebook.com/">
-                                <img alt="" class="img-fluid" src="assets/images/contact/icon/facebook.png"/>
-                            </a>
-                            <a class="btn btn-success contact-btn ms-5"
-                               href="#">
-                                Contact now
-                            </a>
+                        <div class="card next-contact-card">
+                            <div class="row">
+                                <div class="col-2 d-flex justify-content-center align-items-center">
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa-brands fa-whatsapp text-white fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="text-white mt-3">
+                                        Whatsapp
+                                    </h3>
+                                    <p class="text-white">
+                                        <b>+1 (646) 631-1557</b>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="text-white mt-3">
-                            contact@nextinfotechs.com
-                        </h3>
                     </div>
                     <div class="col-12 mb-5">
-                        <div>
-                            <a href="https://www.facebook.com/">
-                                <img alt="" class="img-fluid" src="assets/images/contact/icon/facebook.png"/>
-                            </a>
-                            <a class="btn btn-success contact-btn ms-5"
-                               href="#">
-                                Contact now
-                            </a>
+                        <div class="card next-contact-card">
+                            <div class="row">
+                                <div class="col-2 d-flex justify-content-center align-items-center">
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa-brands fa-skype text-white fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="text-white mt-3">
+                                        Skype
+                                    </h3>
+                                    <p class="text-white">
+                                        <b>live:.cid.6cb903025cfa5585</b>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="text-white mt-3">
-                            contact@nextinfotechs.com
-                        </h3>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <div class="card next-contact-card">
+                            <div class="row">
+                                <div class="col-2 d-flex justify-content-center align-items-center">
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa-brands fa-facebook-messenger text-white fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="text-white mt-3">
+                                        Messenger
+                                    </h3>
+                                    <p class="text-white">
+                                        <b>Next Info Techs</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,15 +210,15 @@
             </div>
             <div class="col-lg-12">
                 <section class="customer-logos slider">
-                    <div class="slide"><img src="assets/images/press/1.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/2.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/3.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/4.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/5.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/6.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/7.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/8.jpg"></div>
-                    <div class="slide"><img src="assets/images/press/9.jpg"></div>
+                    <div class="slide"><img alt="" src="assets/images/press/1.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/2.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/3.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/4.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/5.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/6.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/7.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/8.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/9.jpg"/></div>
                 </section>
             </div>
         </div>
@@ -211,38 +245,39 @@
             <div class="row">
                 <div class="col-lg-6 text-lg-start text-center">
                     <p class="next-footer-social-text">
-                        <a class="footer-nav-link" href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0">
-                            <span class="next-whatsapp">Whatsapp:</span>  +1 (646) 631-1557
+                        <a class="footer-nav-link"
+                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0" target="_blank">
+                            <span class="next-whatsapp">Whatsapp:</span> +1 (646) 631-1557
                         </a>
                         &nbsp;
                         <span class="d-md-inline d-none">|</span>
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
-                            <span class="next-skype">Skype:</span> live.:cid.000000000000
+                        <a class="footer-nav-link" href="https://join.skype.com/invite/whLjFofI5M1I" target="_blank">
+                            <span class="next-skype">Skype:</span> live:.cid.6cb903025cfa5585
                         </a>
                     </p>
                 </div>
                 <div class="col-lg-6 text-lg-end text-center">
                     <p class="next-footer-social-text-2">
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Contact">
                             Contact Us
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="FAQ">
                             FAQ
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Terms-and-Condition">
                             Terms & Condition
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Privacy-Policy">
                             Privacy & Policy
                         </a>
                     </p>

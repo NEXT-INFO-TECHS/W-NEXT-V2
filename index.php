@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <meta name="description" content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs.">
-    <meta name="keywords" content="AI, WEB2, WEB3, Automation, Next Info Tech">
-    <meta name="author" content="Next Info Tech">
+    <meta content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs."
+          name="description">
+    <meta content="AI, WEB2, WEB3, Automation, Next Info Tech" name="keywords">
+    <meta content="Next Info Tech" name="author">
 
-    <meta property="og:title" content="NEXT INFO TECHS | AI, WEB2, WEB3 & Automation TECH" />
-    <meta property="og:description" content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs." />
+    <meta content="NEXT INFO TECHS | AI, WEB2, WEB3 & Automation TECH" property="og:title"/>
+    <meta content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs."
+          property="og:description"/>
     <meta content="https://nextinfotechs.com/assets/images/desktop/background.png" property="og:image"/>
     <meta content="image/png" property="og:image:type"/>
     <meta content="1920" property="og:image:width"/>
@@ -36,8 +38,9 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-nav fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img alt="" class="img-fluid next-logo"
-                                                  src="assets/images/logo/NEXT-logo.png"/></a>
+            <a class="navbar-brand" href="Home">
+                <img alt="" class="img-fluid next-logo" src="assets/images/logo/NEXT-logo.png"/>
+            </a>
             <!--<div class="collapse-social-icons" style="position: inherit;margin-right: .75em;margin-left: auto">
                 <form class="d-flex" role="search">
                     <a class="btn btn-success next-colapse-btn">Get started</a>
@@ -127,7 +130,7 @@
 <!-- Banner End -->
 
 <!-- About Start -->
-<section class="next-about" >
+<section class="next-about">
     <div class="container pt-5 text-center">
         <p class="next-about-content-header">About NEX</p>
         <h1 class="next-about-header mt-3">
@@ -367,9 +370,8 @@
                             Identity
                         </h5>
                         <p class="card-text mt-2 next-card-content">
-                            Service 1 | Service 2
-                            <br/>
-                            Service 3 | Service 4
+                            Logo design | Stationery design <br/>
+                            T-shirt design | Product & packaging design
                         </p>
                     </div>
                 </div>
@@ -382,9 +384,8 @@
                             Marketing
                         </h5>
                         <p class="card-text mt-2 next-card-content">
-                            Service 1 | Service 2
-                            <br/>
-                            Service 3 | Service 4
+                            Poster design | Social media post <br/>
+                            Banner ad design | Social media profile
                         </p>
                     </div>
                 </div>
@@ -397,9 +398,8 @@
                             Illustration
                         </h5>
                         <p class="card-text mt-2 next-card-content">
-                            Service 1 | Service 2
-                            <br/>
-                            Service 3 | Service 4
+                            2D art | Pixel art<br/>
+                            Vector art | Custom graphic
                         </p>
                     </div>
                 </div>
@@ -520,9 +520,12 @@
                                     <h5>Ronne Galle <br/>
                                         <span> Project Manager </span>
                                     </h5>
-                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio
-                                        cumque nihil
-                                        impedit quo minus id quod maxime placeat ” </p>
+                                    <p class="card-text mt-4 mb-5 pb-4">
+                                        “I was extremely impressed with the web design services provided by Next Info
+                                        Tech. The team created a visually stunning website that perfectly captured the
+                                        essence of our brand. The user interface was intuitive and easy to navigate,
+                                        making it a breeze for our visitors to find what they were looking for.“
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -532,9 +535,12 @@
                                     <h5>Missy Limana<br/>
                                         <span> Engineer </span>
                                     </h5>
-                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio
-                                        cumque nihil
-                                        impedit quo minus id quod maxime placeat ” </p>
+                                    <p class="card-text">“Choosing Next Info Tech for our web development project was
+                                        the right decision. Their developers showed great attention to detail and
+                                        delivered a website that met all our requirements. They optimized the site for
+                                        speed and responsiveness, ensuring a seamless user experience. The project was
+                                        completed within the agreed-upon timeframe, and the team provided excellent
+                                        support even after the launch.” </p>
                                 </div>
                             </div>
                         </div>
@@ -544,9 +550,12 @@
                                     <h5>Martha Brown<br/>
                                         <span> Project Manager </span>
                                     </h5>
-                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio
-                                        cumque nihil
-                                        impedit quo minus id quod maxime placeat ” </p>
+                                    <p class="card-text mb-4 pb-4">“Working with Next Info Tech was an absolute pleasure. Their
+                                        graphic designers are incredibly skilled and innovative. They took our ideas and
+                                        transformed them into visually captivating designs that stood out. The team was
+                                        collaborative and open to feedback, making sure every detail was addressed. I am
+                                        thrilled with the final results and would not hesitate to work with them
+                                        again.” </p>
                                 </div>
                             </div>
                         </div>
@@ -556,9 +565,12 @@
                                     <h5>Hanna Lisem<br/>
                                         <span> Project Manager </span>
                                     </h5>
-                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio
-                                        cumque nihil
-                                        impedit quo minus id quod maxime placeat ” </p>
+                                    <p class="card-text mb-4 pb-4">“ I highly recommend Next Info Tech for their exceptional
+                                        graphic design services. Their designers have an impeccable sense of style and a
+                                        remarkable ability to translate ideas into visual masterpieces. They were
+                                        professional, reliable, and attentive to our needs throughout the project. The
+                                        quality of their designs and their commitment to customer satisfaction were
+                                        truly commendable” </p>
                                 </div>
                             </div>
                         </div>
@@ -572,27 +584,29 @@
 
 <!-- Read Review Start -->
 <section class="next-review-start">
-    <div class="container-fluid pt-5 pb-5">
+    <div class="container-fluid pt-5 pb-lg-5 pb-2">
         <div class="row">
-            <div class="col-lg-6">
-                <h2 class="next-review-start-title">
-                    SEE OUR LATEST BLOGS
-                </h2>
-                <p class="next-review-start-content">
-                    Read more blogs
-                </p>
+            <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center text-lg-start text-center">
+                <div>
+                    <h1 class="next-review-start-title">
+                        OUR LATEST BLOGS
+                    </h1>
+                    <p class="next-review-start-content">
+                        Read more blogs &nbsp;<span class="fa-solid fa-angles-right arrow"></span>
+                    </p>
+                </div>
             </div>
             <div class="col-lg-6 text-end">
                 <section class="blogs slider">
-                    <div class="slide"><img src="assets/images/press/1.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/2.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/3.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/4.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/5.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/6.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/7.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/8.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/9.jpg" alt=""/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/1.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/2.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/3.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/4.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/5.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/6.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/7.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/8.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/9.jpg"/></div>
                 </section>
             </div>
         </div>
@@ -614,15 +628,15 @@
             </div>
             <div class="col-lg-12">
                 <section class="customer-logos slider">
-                    <div class="slide"><img src="assets/images/press/1.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/2.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/3.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/4.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/5.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/6.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/7.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/8.jpg" alt=""/></div>
-                    <div class="slide"><img src="assets/images/press/9.jpg" alt=""/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/1.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/2.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/3.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/4.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/5.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/6.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/7.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/8.jpg"/></div>
+                    <div class="slide"><img alt="" src="assets/images/press/9.jpg"/></div>
                 </section>
             </div>
         </div>
@@ -649,38 +663,39 @@
             <div class="row">
                 <div class="col-lg-6 text-lg-start text-center">
                     <p class="next-footer-social-text">
-                        <a class="footer-nav-link" href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0">
-                            <span class="next-whatsapp">Whatsapp:</span>  +1 (646) 631-1557
+                        <a class="footer-nav-link"
+                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0" target="_blank">
+                            <span class="next-whatsapp">Whatsapp:</span> +1 (646) 631-1557
                         </a>
                         &nbsp;
                         <span class="d-md-inline d-none">|</span>
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
-                            <span class="next-skype">Skype:</span> live.:cid.000000000000
+                        <a class="footer-nav-link" href="https://join.skype.com/invite/whLjFofI5M1I" target="_blank">
+                            <span class="next-skype">Skype:</span> live:.cid.6cb903025cfa5585
                         </a>
                     </p>
                 </div>
                 <div class="col-lg-6 text-lg-end text-center">
                     <p class="next-footer-social-text-2">
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Contact">
                             Contact Us
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="FAQ">
                             FAQ
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Terms-and-Condition">
                             Terms & Condition
                         </a>
                         &nbsp;
                         |
                         &nbsp;
-                        <a class="footer-nav-link" href="#">
+                        <a class="footer-nav-link" href="Privacy-Policy">
                             Privacy & Policy
                         </a>
                     </p>

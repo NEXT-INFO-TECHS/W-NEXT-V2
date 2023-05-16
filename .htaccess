@@ -1,10 +1,22 @@
-ErrorDocument 404 http://localhost/W-NEXT-V2/404.html
+ErrorDocument 404 https://nextinfotechs.com/404
 
 RewriteEngine on
 
-RewriteRule ^Home index.html [NE,L]
+RewriteRule ^Home index.php [NE,L]
 
-RewriteRule ^Contact contact.html [NE,L]
+RewriteRule ^Contact contact.php [NE,L]
+
+RewriteRule ^Terms-and-Condition terms-and-condition.php [NE,L]
+
+RewriteRule ^Privacy-Policy contact.php [NE,L]
+
+RewriteRule ^FAQ faq.php [NE,L]
+
+RewriteRule ^Blog blog.php [NE,L]
+
+RewriteRule ^Data data.php [NE,L]
+
+RewriteRule ^404 404.php [NE,L]
 
 
 

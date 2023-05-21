@@ -8,7 +8,7 @@ RewriteRule ^Contact contact.php [NE,L]
 
 RewriteRule ^Terms-and-Condition terms-and-condition.php [NE,L]
 
-RewriteRule ^Privacy-Policy contact.php [NE,L]
+RewriteRule ^Privacy-Policy privacy-policy.php [NE,L]
 
 RewriteRule ^FAQ faq.php [NE,L]
 

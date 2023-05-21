@@ -72,12 +72,12 @@
                         <a class="nav-link" href="Contact">CONTACT</a>
                     </li>
                 </ul>
-                <form class="d-flex next-nav-icon" role="search">
+                <div class="d-flex next-nav-icon" role="search">
                     <a class="btn btn-success next-btn-header"
                        href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0">
                         Get started
                     </a>
-                </form>
+                </div>
             </div>
         </div>
     </nav>
@@ -736,6 +736,25 @@
 <!-- Footer End -->
 
 <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Modal -->
+<div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content next-modal-card">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 next-work-card-title m-auto" id="alertModalLabel">Data Submitted Successful</h1>
+            </div>
+            <div class="modal-body text-center">
+                <img src="assets/images/check-mark.png" class="img-fluid mb-3" style="max-width: 120px" alt=""/>
+                <h3 class="next-message-title">Thank You</h3>
+                <p class="next-message-caption">Your Submission Has Been Sent.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary next-modal-btn" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

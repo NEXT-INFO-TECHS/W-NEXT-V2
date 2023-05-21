@@ -1245,7 +1245,7 @@ ul.next-footer-menu-list {
 }
 
 #topBtn:hover {
-    background-color: #555;
+    background-color: #0083e4;
 }
 
 .faq__panel{
@@ -1271,3 +1271,40 @@ ul.next-footer-menu-list {
     padding-bottom: 7px;
     font-family: 'BlackthornsBold',sans-serif;
 }
+
+.next-modal-card{
+    border-radius: 25px;
+    font-family: 'BlackthornsBlack', serif;
+    font-size: 35px;
+    color: white;
+    border: 3px solid #46aef7;
+    background: rgb(5 31 94 / 90%);
+    -webkit-box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+    -moz-box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+    box-shadow: 0 0 5px 5px rgba(15,238,255,1);
+}
+
+.next-message-title{
+    font-family: 'BlackthornsBold',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.next-message-caption{
+    font-family: 'HenjuBold',sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.next-modal-btn{
+    font-family: 'HenjuBold', serif;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px 35px;
+    background: url("../images/button/btn.webp") no-repeat;
+    background-size: cover;
+    color: black;
+    border:3px solid #6cfffa;
+}
+

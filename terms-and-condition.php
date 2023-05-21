@@ -29,6 +29,12 @@
     <link href="assets/vendor/OwlCarousel/css/owl.carousel.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <style>
+        .next-work-title{
+            font-size: 30px;
+        }
+    </style>
 </head>
 <body>
 
@@ -83,7 +89,7 @@
 
 <!-- Title Start -->
 <section class="next-title">
-    <h1 class="text-center next-work-title text-white">Terms and Condition</h1>
+    <h1 class="text-center next-work-title text-white" style="font-size: 45px">Terms and Condition</h1>
 </section>
 <!-- Title End -->
 
@@ -484,6 +490,8 @@
     </div>
 </section>
 <!-- Footer End -->
+
+<button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

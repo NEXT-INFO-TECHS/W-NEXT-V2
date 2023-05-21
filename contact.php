@@ -27,6 +27,12 @@
     <link href="assets/vendor/OwlCarousel/css/owl.carousel.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <style>
+        .arrow {
+            transform: translate(0px, 0px);
+        }
+    </style>
 </head>
 <body>
 
@@ -107,7 +113,7 @@
                                         Mailbox
                                     </h3>
                                     <p class="text-white">
-                                        <b>contact@nextinfotechs.com</b>
+                                        <b>contact@nextinfotechs.com</b> &nbsp;<span class="fa-solid fa-angles-right arrow"></span>
                                     </p>
                                 </div>
                             </div>
@@ -126,7 +132,7 @@
                                         Whatsapp
                                     </h3>
                                     <p class="text-white">
-                                        <b>+1 (646) 631-1557</b>
+                                        <b>+1 (646) 631-1557</b> &nbsp;<span class="fa-solid fa-angles-right arrow"></span>
                                     </p>
                                 </div>
                             </div>
@@ -145,7 +151,7 @@
                                         Skype
                                     </h3>
                                     <p class="text-white">
-                                        <b>live:.cid.6cb903025cfa5585</b>
+                                        <b>live:.cid.6cb903025cfa5585</b> &nbsp;<span class="fa-solid fa-angles-right arrow"></span>
                                     </p>
                                 </div>
                             </div>
@@ -164,7 +170,7 @@
                                         Messenger
                                     </h3>
                                     <p class="text-white">
-                                        <b>Next Info Techs</b>
+                                        <b>Next Info Techs</b> &nbsp;<span class="fa-solid fa-angles-right arrow"></span>
                                     </p>
                                 </div>
                             </div>
@@ -313,6 +319,8 @@
     </div>
 </section>
 <!-- Footer End -->
+
+<button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

@@ -186,12 +186,15 @@
                                 Let's Discuss<br/>
                                 a Project
                             </h1>
-                            <input class="form-control mb-4 next-form-input" placeholder="Name:" type="text"/>
-                            <input class="form-control mb-4 next-form-input" placeholder="E-mail:" type="text"/>
-                            <input class="form-control mb-5 next-form-input" placeholder="Contact number:" type="text"/>
-                            <a class="btn btn-success next-banner-btn me-4 ms-4" href="#">
-                                Start now <i class="fa-solid fa-angle-right"></i>
-                            </a>
+                            <form action="Data" method="post">
+                                <input class="form-control mb-4 next-form-input" name="name" placeholder="Name:" type="text" required/>
+                                <input class="form-control mb-4 next-form-input" name="email" placeholder="E-mail:" type="email" required/>
+                                <input class="form-control mb-5 next-form-input" name="phone" placeholder="Contact number:" type="text" required/>
+                                <input type="hidden" name="page" value="Contact" required/>
+                                <button type="submit" name="discussProject" class="btn btn-success next-banner-btn me-4 ms-4">
+                                    Start now <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </form>
                             <div class="pb-3" id="about"></div>
                         </div>
                     </div>

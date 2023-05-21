@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <meta name="description" content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs.">
+    <meta name="description"
+          content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs.">
     <meta name="keywords" content="AI, WEB2, WEB3, Automation, Next Info Tech">
     <meta name="author" content="Next Info Tech">
 
-    <meta property="og:title" content="NEXT INFO TECHS | AI, WEB2, WEB3 & Automation TECH" />
-    <meta property="og:description" content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs." />
+    <meta property="og:title" content="NEXT INFO TECHS | AI, WEB2, WEB3 & Automation TECH"/>
+    <meta property="og:description"
+          content="Next Info Techs (NEX) focus on delivering cutting-edge technology and exceptional customer service expertise in Web2, Web3, NFT, Database, website and landing page design, graphic design, and social media marketing, Next Info Techs offers a one-stop shop for all of a company's digital needs."/>
     <meta content="http://nextinfotechs.com/assets/images/desktop/background.png" property="og:image"/>
     <meta content="image/png" property="og:image:type"/>
     <meta content="1920" property="og:image:width"/>
@@ -27,6 +29,10 @@
     <link href="assets/vendor/OwlCarousel/css/owl.carousel.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <style>
+
+    </style>
 </head>
 <body>
 
@@ -89,105 +95,31 @@
 <section class="next-web">
     <div class="container pt-5 pb-5 text-center">
         <h1 class="next-work-title text-start pt-5 pb-4">
-            Contact Us
+            FAQ
         </h1>
         <div class="row text-start mt-4">
-            <div class="col-xl-6 mb-4">
-                <div class="row mt-5">
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-solid fa-envelopes-bulk text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Mailbox
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>contact@nextinfotechs.com</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-whatsapp text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Whatsapp
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>+1 (646) 631-1557</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-skype text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Skype
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>live:.cid.6cb903025cfa5585</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-facebook-messenger text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Messenger
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>Next Info Techs</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 mt-lg-0 mt-5 d-flex justify-content-center justify-content-lg-end align-items-center">
+            <div class="col-xl-12 mb-4">
                 <div class="row">
-                    <div class="col-lg-12 ms-auto">
-                        <div class="card p-4 text-center next-form-card">
-                            <h1 class="mb-4 pt-5">
-                                Let's Discuss<br/>
-                                a Project
-                            </h1>
-                            <input class="form-control mb-4 next-form-input" placeholder="Name:" type="text"/>
-                            <input class="form-control mb-4 next-form-input" placeholder="E-mail:" type="text"/>
-                            <input class="form-control mb-5 next-form-input" placeholder="Contact number:" type="text"/>
-                            <a class="btn btn-success next-banner-btn me-4 ms-4" href="#">
-                                Start now <i class="fa-solid fa-angle-right"></i>
-                            </a>
-                            <div class="pb-3" id="about"></div>
-                        </div>
+                    <div class="faq__body">
+                        <details aria-expanded="true" class="faq__panel" open>
+                            <summary class="faq__label">What is Artificial Intelligence?</summary>
+                            <div class="faq__panel-body">
+                                <p class="faq__panel-answer">AI, or Artificial Intelligence, refers to computer systems that can perform tasks requiring human-like intelligence. It involves techniques like machine learning, natural language processing, and robotics. AI systems can learn, analyze data, recognize patterns, and make decisions. Examples include voice assistants and recommendation algorithms. AI has applications in various industries and holds potential for significant advancements. However, ethical and societal concerns must be addressed as AI continues to develop.</p>
+                            </div>
+                        </details>
+                        <details aria-expanded="false" class="faq__panel">
+                            <summary class="faq__label">What is ChatGpt?</summary>
+                            <div class="faq__panel-body">
+                                <p class="faq__panel-answer">ChatGPT is an artificial intelligence language model developed by OpenAI. It is based on the GPT (Generative Pre-trained Transformer) architecture, specifically GPT-3.5. The model is designed to generate human-like responses to text inputs, making it suitable for conversational applications. It has been trained on a diverse range of internet text to acquire a broad understanding of language patterns, context, and common knowledge.</p>
+                            </div>
+                        </details>
+                        <details aria-expanded="false" class="faq__panel">
+                            <summary class="faq__label">What's the future of AI?</summary>
+                            <div class="faq__panel-body">
+                                <p class="faq__panel-answer">AI's future: Advanced machine learning, automation, enhanced NLP, healthcare revolution, ethical AI, AI-robotics integration, AI-assisted creativity, personalized experiences, cybersecurity defense, and autonomous transportation. Challenges include ethics, privacy, job displacement, and responsible AI use.</p>
+                            </div>
+                        </details>
+
                     </div>
                 </div>
             </div>
@@ -246,7 +178,8 @@
                 <div class="col-lg-6 text-lg-start text-center">
                     <p class="next-footer-social-text">
                         <a class="footer-nav-link"
-                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0" target="_blank">
+                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0"
+                           target="_blank">
                             <span class="next-whatsapp">Whatsapp:</span> +1 (646) 631-1557
                         </a>
                         &nbsp;

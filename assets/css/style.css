@@ -1247,3 +1247,27 @@ ul.next-footer-menu-list {
 #topBtn:hover {
     background-color: #555;
 }
+
+.faq__panel{
+    padding: 7px 21px;
+    margin-bottom: 24px;
+    border: 1px solid #777e91;
+    border-radius: 7px;
+    background: #000000;
+}
+
+.faq__label{
+    padding-block: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'HenjuBold', serif;
+}
+
+.faq__panel-answer{
+    color: #f4f5f6;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-family: 'BlackthornsBold',sans-serif;
+}

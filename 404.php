@@ -81,113 +81,27 @@
 
 <!-- Title Start -->
 <section class="next-title">
-    <h1 class="text-center next-work-title text-white">404</h1>
+    <h1 class="text-center next-work-title text-white">Oops!</h1>
 </section>
 <!-- Title End -->
 
 <!-- Contact Start -->
 <section class="next-web">
     <div class="container pt-5 pb-5 text-center">
-        <h1 class="next-work-title text-start pt-5 pb-4">
-            404
+        <h1 class="next-work-title text-start pt-5 pb-4 text-center">
+            <span class="next-hebrew">404</span>
         </h1>
         <div class="row text-start mt-4">
-            <div class="col-xl-6 mb-4">
-                <div class="row mt-5">
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-solid fa-envelopes-bulk text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Mailbox
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>contact@nextinfotechs.com</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-whatsapp text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Whatsapp
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>+1 (646) 631-1557</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-skype text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Skype
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>live:.cid.6cb903025cfa5585</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-5">
-                        <div class="card next-contact-card">
-                            <div class="row">
-                                <div class="col-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://www.facebook.com/">
-                                        <i class="fa-brands fa-facebook-messenger text-white fa-2x"></i>
-                                    </a>
-                                </div>
-                                <div class="col-10">
-                                    <h3 class="text-white mt-3">
-                                        Messenger
-                                    </h3>
-                                    <p class="text-white">
-                                        <b>Next Info Techs</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 mt-lg-0 mt-5 d-flex justify-content-center justify-content-lg-end align-items-center">
+            <div class="col-xl-12 mb-4">
                 <div class="row">
-                    <div class="col-lg-12 ms-auto">
-                        <div class="card p-4 text-center next-form-card">
-                            <h1 class="mb-4 pt-5">
-                                Let's Discuss<br/>
-                                a Project
-                            </h1>
-                            <input class="form-control mb-4 next-form-input" placeholder="Name:" type="text"/>
-                            <input class="form-control mb-4 next-form-input" placeholder="E-mail:" type="text"/>
-                            <input class="form-control mb-5 next-form-input" placeholder="Contact number:" type="text"/>
-                            <a class="btn btn-success next-banner-btn me-4 ms-4" href="#">
-                                Start now <i class="fa-solid fa-angle-right"></i>
-                            </a>
-                            <div class="pb-3" id="about"></div>
-                        </div>
+                    <div class="col-12 mb-5 text-center">
+                        <h3 class="text-white mb-3">
+                            The page you are looking for might have been removed<br/>
+                            had its name changed or is temporarily unavailable.
+                        </h3>
+                        <a class="btn btn-success next-btn-footer mt-3" href="Home">
+                            Go to home page <i class="fa-solid fa-angle-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -39,17 +39,14 @@ $db_handle = new DBController();
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                <h1 class="h3 mb-2 text-gray-800">Registration Data</h1>
+                <h1 class="h3 mb-2 text-gray-800">Contact Data</h1>
 
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Registration Data</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Contact Data</h6>
                     </div>
                     <div class="card-body">
-                        <div class="text-center mb-4">
-                            <a href="report.php?report=1" class="btn btn-primary">Export Data</a>
-                        </div>
                         <div class="table-responsive">
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
@@ -57,7 +54,6 @@ $db_handle = new DBController();
                                     <th>SL</th>
                                     <th>Name</th>
                                     <th>Email</th>
-                                    <th>NGT NFT reserve</th>
                                     <th>Contact No</th>
                                 </tr>
                                 </thead>
@@ -66,21 +62,20 @@ $db_handle = new DBController();
                                     <th>SL</th>
                                     <th>Name</th>
                                     <th>Email</th>
-                                    <th>NGT NFT reserve</th>
                                     <th>Contact No</th>
                                 </tr>
                                 </tfoot>
                                 <tbody>
                                 <?php
-                                $data = $db_handle->runQuery("SELECT * FROM registration order by id desc");
-                                $row_count = $db_handle->numRows("SELECT * FROM registration order by id desc");
+                                $query="SELECT * FROM contact order by id desc";
+                                $data = $db_handle->runQuery($query);
+                                $row_count = $db_handle->numRows($query);
                                 for ($i = 0; $i < $row_count; $i++) {
                                     ?>
                                     <tr>
                                         <td><?php echo $i + 1; ?></td>
                                         <td><?php echo $data[$i]["name"]; ?></td>
                                         <td><?php echo $data[$i]["email"]; ?></td>
-                                        <td><?php echo $data[$i]["reserve"]; ?></td>
                                         <td><?php echo $data[$i]["phone"]; ?></td>
                                     </tr>
                                 <?php } ?>

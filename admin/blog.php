@@ -14,7 +14,7 @@ $db_handle = new DBController();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>User Info - NEXT INFO TECH</title>
+    <title>Blog - NEXT INFO TECH</title>
 
     <?php require_once 'include/css.php'; ?>
 
@@ -39,49 +39,62 @@ $db_handle = new DBController();
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                <h1 class="h3 mb-2 text-gray-800">User Data</h1>
+                <h1 class="h3 mb-2 text-gray-800">Blog Data</h1>
 
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">User Data</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Blog Data</h6>
                     </div>
                     <div class="card-body">
                         <div class="text-center mb-4">
-                            <a href="report.php?report_user=1" class="btn btn-primary">Export Data</a>
+                            <a href="#" class="btn btn-primary">Add Blog</a>
                         </div>
                         <div class="table-responsive">
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
                                     <th>SL</th>
-                                    <th>Name</th>
-                                    <th>UserName</th>
-                                    <th>Email</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Meta Title</th>
+                                    <th>Meta Description</th>
+                                    <th>Meta Keywords</th>
                                     <th>Image</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
                                 </tr>
                                 </thead>
                                 <tfoot>
                                 <tr>
                                     <th>SL</th>
-                                    <th>Name</th>
-                                    <th>UserName</th>
-                                    <th>Email</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Meta Title</th>
+                                    <th>Meta Description</th>
+                                    <th>Meta Keywords</th>
                                     <th>Image</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
                                 </tr>
                                 </tfoot>
                                 <tbody>
                                 <?php
-                                $data = $db_handle->runQuery("SELECT * FROM user order by id desc");
-                                $row_count = $db_handle->numRows("SELECT * FROM user order by id desc");
+                                $query="SELECT * FROM blog order by id desc";
+                                $data = $db_handle->runQuery($query);
+                                $row_count = $db_handle->numRows($query);
                                 for ($i = 0; $i < $row_count; $i++) {
                                     ?>
                                     <tr>
                                         <td><?php echo $i + 1; ?></td>
-                                        <td><?php echo $data[$i]["name"]; ?></td>
-                                        <td><?php echo $data[$i]["username"]; ?></td>
+                                        <td><?php echo $data[$i]["title"]; ?></td>
+                                        <td><?php echo $data[$i]["description"]; ?></td>
+                                        <td><?php echo $data[$i]["meta_title"]; ?></td>
+                                        <td><?php echo $data[$i]["meta_description"]; ?></td>
                                         <td><?php echo $data[$i]["email"]; ?></td>
                                         <td><a href="../<?php echo $data[$i]["image"]; ?>" target="_blank">image</a></td>
+                                        <td><?php echo $data[$i]["status"]; ?></td>
+                                        <td>Edit</td>
                                     </tr>
                                 <?php } ?>
                                 </tbody>

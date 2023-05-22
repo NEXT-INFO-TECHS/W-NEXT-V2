@@ -12,7 +12,7 @@ RewriteRule ^Privacy-Policy privacy-policy.php [NE,L]
 
 RewriteRule ^FAQ faq.php [NE,L]
 
-RewriteRule ^Blog blog.php [NE,L]
+RewriteRule ^Blog(.*) blog.php$1
 
 RewriteRule ^Data data.php [NE,L]
 

@@ -4,16 +4,16 @@ class DBController {
     private $user = "root";
     private $password = "";
     private $database = "nextinfo";
-    private $from_email= "official@1-studiohk.com";
+    private $from_email= "noreply@nextinfotechs.com";
     private $notify_email= "frogbidofficial@gmail.com";
     private $conn;
 
     function __construct() {
         if($_SERVER['SERVER_NAME']=="nextinfotechs.com"||$_SERVER['SERVER_NAME']=="www.nextinfotechs.com"){
             $this->host = "localhost";
-            $this->user = "uii8rjsjdmrev";
+            $this->user = "uatk0a0ltfdbk";
             $this->password = "u3!GIE1=]#qm";
-            $this->database = "dbobpoj1t3awvo";
+            $this->database = "dbiqi1yybogcyf";
         }
 
         $this->conn = $this->connectDB();

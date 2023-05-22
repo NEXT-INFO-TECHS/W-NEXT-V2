@@ -24,7 +24,7 @@ if (isset($_POST['discussProject'])) {
     $insert = $db_handle->insertQuery($query);
 
 
-    $subject = 'Next Info techs';
+    $subject = 'Next Info Techs';
 
     $messege = "
             <html lang='en'>
@@ -197,7 +197,7 @@ if (isset($_POST['discussProject'])) {
             </body>
             </html>";
 
-    $sender_name = "Next Info techs";
+    $sender_name = "Next Info Techs";
     $sender_email = "noreply@nextinfotechs.com";
 
     $username = "noreply@nextinfotechs.com";

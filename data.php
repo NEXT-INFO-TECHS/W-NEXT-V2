@@ -67,14 +67,14 @@ if (isset($_POST['discussProject'])) {
             <body style='text-align: center; margin: 0; padding: 10px 0;-webkit-text-size-adjust: 100%;background-color: #000000; color: #000000'>
             
             <div style='text-align: center;'>
-                <div style='max-width: 600px;margin: auto;border: 3px solid #46aef7;background: rgb(5 31 94 / 90%);-webkit-box-shadow: 0 0 5px 5px rgba(15,238,255,1);-moz-box-shadow: 0 0 5px 5px rgba(15,238,255,1);box-shadow: 0 0 5px 5px rgba(15,238,255,1);'>
+                <div style='width: 600px;margin: auto;border: 3px solid #46aef7;background: #051F5EE5;-webkit-box-shadow: 0 0 5px 5px #46AEF7FF;-moz-box-shadow: 0 0 5px 5px #46AEF7FF;box-shadow: 0 0 5px 5px #46AEF7FF;'>
                     <table style='text-align: center; vertical-align: top;'>
                         <tbody>
                         <tr>
                             <td style='width: 596px; vertical-align: top; padding: 15px 0;'>
                                 <img alt='Logo' height='85'
                                      src='https://nextinfotechs.com/assets/images/logo/NEXT-logo.png'
-                                     style='width: 128px; max-width: 128px; height: 52px; max-height: 52px; text-align: center; color: #ffffff;'
+                                     style='width: 128px; m ax-width: 128px; height: 52px; max-height: 52px; text-align: center; color: #ffffff;'
                                      width='180'>
                             </td>
                         </tr>

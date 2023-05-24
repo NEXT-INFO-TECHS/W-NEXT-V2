@@ -114,11 +114,15 @@
                                 a Project
                             </h1>
                             <form action="Data" method="post">
-                                <input class="form-control mb-4 next-form-input" name="name" placeholder="Name:" type="text" required/>
-                                <input class="form-control mb-4 next-form-input" name="email" placeholder="E-mail:" type="email" required/>
-                                <input class="form-control mb-5 next-form-input" name="phone" placeholder="Contact number:" type="text" required/>
+                                <input class="form-control mb-4 next-form-input" name="name" placeholder="Name:"
+                                       type="text" required/>
+                                <input class="form-control mb-4 next-form-input" name="email" placeholder="E-mail:"
+                                       type="email" required/>
+                                <input class="form-control mb-5 next-form-input" name="phone"
+                                       placeholder="Contact number:" type="text" required/>
                                 <input type="hidden" name="page" value="Home" required/>
-                                <button type="submit" name="discussProject" class="btn btn-success next-banner-btn me-4 ms-4">
+                                <button type="submit" name="discussProject"
+                                        class="btn btn-success next-banner-btn me-4 ms-4">
                                     Start now <i class="fa-solid fa-angle-right"></i>
                                 </button>
                             </form>
@@ -284,51 +288,57 @@
         </p>
         <div class="row text-start mt-4 text-center">
             <div class="col-xl-4 mb-4">
-                <div class="next-web-card d-flex justify-content-center align-items-center">
-                    <div class="next-web-card-body">
-                        <h5 class="card-title next-card-title">
-                            Web<br/>
-                            Design
-                        </h5>
-                        <p class="card-text mt-2 next-card-content text-center">
-                            UI/UX | Psd to Html
-                            <br/>
-                            Portfolio | Landing Page
-                            <br/>
-                            Squeeze Page | Responsive Design
-                        </p>
+                <div class="nwc">
+                    <div class="next-web-card d-flex justify-content-center align-items-center">
+                        <div class="next-web-card-body">
+                            <h5 class="card-title next-card-title">
+                                Web<br/>
+                                Design
+                            </h5>
+                            <p class="card-text mt-2 next-card-content text-center">
+                                UI/UX | Psd to Html
+                                <br/>
+                                Portfolio | Landing Page
+                                <br/>
+                                Squeeze Page | Responsive Design
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-web-card d-flex justify-content-center align-items-center">
-                    <div class="next-web-card-body">
-                        <h5 class="card-title next-card-title">
-                            Web<br/>
-                            Development
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            Ecommerce | CRM
-                            <br/>
-                            API Integration | Payroll
-                            <br/>
-                            ERP | Payment Method Integration
-                        </p>
+                <div class="nwc">
+                    <div class="next-web-card d-flex justify-content-center align-items-center">
+                        <div class="next-web-card-body">
+                            <h5 class="card-title next-card-title">
+                                Web<br/>
+                                Development
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                Ecommerce | CRM
+                                <br/>
+                                API Integration | Payroll
+                                <br/>
+                                ERP | Payment Method Integration
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-web-card d-flex justify-content-center align-items-center">
-                    <div class="next-web-card-body">
-                        <h5 class="card-title next-card-title">
-                            Custom<br/>
-                            Database
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            Schema Design | Database Modification
-                            <br/>
-                            Database Cleanup | Database Maintenance
-                        </p>
+                <div class="nwc">
+                    <div class="next-web-card d-flex justify-content-center align-items-center">
+                        <div class="next-web-card-body">
+                            <h5 class="card-title next-card-title">
+                                Custom<br/>
+                                Database
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                Schema Design | Database Modification
+                                <br/>
+                                Database Cleanup | Database Maintenance
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -366,44 +376,50 @@
         </p>
         <div class="row text-start mt-4 text-center">
             <div class="col-xl-4 mb-4">
-                <div class="next-graphic-card d-flex justify-content-center align-items-center">
-                    <div class="next-graphic-card-body">
-                        <h5 class="card-title next-card-title">
-                            Branding &<br/>
-                            Identity
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            Logo design | Stationery design <br/>
-                            T-shirt design | Product & packaging design
-                        </p>
+                <div class="ngc">
+                    <div class="next-graphic-card d-flex justify-content-center align-items-center">
+                        <div class="next-graphic-card-body">
+                            <h5 class="card-title next-card-title">
+                                Branding &<br/>
+                                Identity
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                Logo design | Stationery design <br/>
+                                T-shirt design | Product & packaging design
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-graphic-card d-flex justify-content-center align-items-center">
-                    <div class="next-graphic-card-body">
-                        <h5 class="card-title next-card-title">
-                            Digital<br/>
-                            Marketing
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            Poster design | Social media post <br/>
-                            Banner ad design | Social media profile
-                        </p>
+                <div class="ngc">
+                    <div class="next-graphic-card d-flex justify-content-center align-items-center">
+                        <div class="next-graphic-card-body">
+                            <h5 class="card-title next-card-title">
+                                Digital<br/>
+                                Marketing
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                Poster design | Social media post <br/>
+                                Banner ad design | Social media profile
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-graphic-card d-flex justify-content-center align-items-center">
-                    <div class="next-graphic-card-body">
-                        <h5 class="card-title next-card-title">
-                            Art &<br/>
-                            Illustration
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            2D art | Pixel art<br/>
-                            Vector art | Custom graphic
-                        </p>
+                <div class="ngc">
+                    <div class="next-graphic-card d-flex justify-content-center align-items-center">
+                        <div class="next-graphic-card-body">
+                            <h5 class="card-title next-card-title">
+                                Art &<br/>
+                                Illustration
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                2D art | Pixel art<br/>
+                                Vector art | Custom graphic
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -441,46 +457,52 @@
         </p>
         <div class="row text-start mt-4 text-center">
             <div class="col-xl-4 mb-4">
-                <div class="next-ai-card d-flex justify-content-center align-items-center">
-                    <div class="next-ai-card-body">
-                        <h5 class="card-title next-card-title">
-                            Custom<br/>
-                            Automation
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            We will provide you a service
-                            <br/>
-                            according to your need.
-                        </p>
+                <div class="nai">
+                    <div class="next-ai-card d-flex justify-content-center align-items-center">
+                        <div class="next-ai-card-body">
+                            <h5 class="card-title next-card-title">
+                                Custom<br/>
+                                Automation
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                We will provide you a service
+                                <br/>
+                                according to your need.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-ai-card d-flex justify-content-center align-items-center">
-                    <div class="next-ai-card-body">
-                        <h5 class="card-title next-card-title">
-                            Chatbot<br/>
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            Automatic reply to your customers
-                            <br/>
-                            according to their questions.
-                        </p>
+                <div class="nai">
+                    <div class="next-ai-card d-flex justify-content-center align-items-center">
+                        <div class="next-ai-card-body">
+                            <h5 class="card-title next-card-title">
+                                Chatbot<br/>
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                Automatic reply to your customers
+                                <br/>
+                                according to their questions.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 mb-4">
-                <div class="next-ai-card d-flex justify-content-center align-items-center">
-                    <div class="next-ai-card-body">
-                        <h5 class="card-title next-card-title">
-                            Autofill<br/>
-                            Forms
-                        </h5>
-                        <p class="card-text mt-2 next-card-content">
-                            We will automate a form submission
-                            <br/>
-                            as you need.
-                        </p>
+                <div class="nai">
+                    <div class="next-ai-card d-flex justify-content-center align-items-center">
+                        <div class="next-ai-card-body">
+                            <h5 class="card-title next-card-title">
+                                Autofill<br/>
+                                Forms
+                            </h5>
+                            <p class="card-text mt-2 next-card-content">
+                                We will automate a form submission
+                                <br/>
+                                as you need.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -553,7 +575,8 @@
                                     <h5>Martha Brown<br/>
                                         <span> Project Manager </span>
                                     </h5>
-                                    <p class="card-text mb-4 pb-4">“Working with Next Info Tech was an absolute pleasure. Their
+                                    <p class="card-text mb-4 pb-4">“Working with Next Info Tech was an absolute
+                                        pleasure. Their
                                         graphic designers are incredibly skilled and innovative. They took our ideas and
                                         transformed them into visually captivating designs that stood out. The team was
                                         collaborative and open to feedback, making sure every detail was addressed. I am
@@ -568,7 +591,8 @@
                                     <h5>Hanna Lisem<br/>
                                         <span> Project Manager </span>
                                     </h5>
-                                    <p class="card-text mb-4 pb-4">“ I highly recommend Next Info Tech for their exceptional
+                                    <p class="card-text mb-4 pb-4">“ I highly recommend Next Info Tech for their
+                                        exceptional
                                         graphic design services. Their designers have an impeccable sense of style and a
                                         remarkable ability to translate ideas into visual masterpieces. They were
                                         professional, reliable, and attentive to our needs throughout the project. The
@@ -667,7 +691,8 @@
                 <div class="col-lg-6 text-lg-start text-center">
                     <p class="next-footer-social-text">
                         <a class="footer-nav-link"
-                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0" target="_blank">
+                           href="https://api.whatsapp.com/message/VBCGRP7FAFCOD1?autoload=1&app_absent=0"
+                           target="_blank">
                             <span class="next-whatsapp">Whatsapp:</span> +1 (646) 631-1557
                         </a>
                         &nbsp;
@@ -742,7 +767,8 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content next-modal-card">
             <div class="modal-header">
-                <h1 class="modal-title fs-5 next-work-card-title m-auto" id="alertModalLabel">Data Submitted Successful</h1>
+                <h1 class="modal-title fs-5 next-work-card-title m-auto" id="alertModalLabel">Data Submitted
+                    Successful</h1>
             </div>
             <div class="modal-body text-center">
                 <img src="assets/images/check-mark.png" class="img-fluid mb-3" style="max-width: 120px" alt=""/>

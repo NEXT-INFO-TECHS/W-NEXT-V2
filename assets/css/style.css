@@ -290,14 +290,19 @@ nav {
     padding: 0 10px 0 10px;
 }
 
-.next-web-card {
+.nwc {
     border:3px solid #46aef7;
     border-radius: 15px;
-    margin: 8px;
     height: 255px;
     color: white;
     background: url('../images/card/web-n.webp') no-repeat;
     background-size: cover;
+    padding: unset;
+}
+
+.next-web-card {
+    height: 250px;
+    color: white;
 }
 
 .next-web-card-body {
@@ -305,19 +310,25 @@ nav {
 }
 
 .next-web-card:hover {
-    background: url('../images/card/web-h.webp') no-repeat;
+    background-image: linear-gradient(180deg,#46aef76b,#00fcff);
     background-size: cover;
     color: black;
+    border-radius: 12px;
 }
 
-.next-graphic-card {
+.ngc{
     border:3px solid #46aef7;
     border-radius: 15px;
-    margin: 8px;
     height: 255px;
     color: white;
     background: url('../images/card/graphic-n.webp') no-repeat;
     background-size: cover;
+    padding: unset;
+}
+
+.next-graphic-card {
+    height: 250px;
+    color: white;
 }
 
 .next-graphic-card-body {
@@ -325,19 +336,25 @@ nav {
 }
 
 .next-graphic-card:hover {
-    background: url('../images/card/graphic-h.webp') no-repeat;
+    background-image: linear-gradient(180deg,#01fec76b,#01fec7);
     background-size: cover;
     color: black;
+    border-radius: 12px;
 }
 
-.next-ai-card {
+.nai{
     border:3px solid #46aef7;
     border-radius: 15px;
-    margin: 8px;
     height: 255px;
     color: white;
     background: url('../images/card/ai-n.webp') no-repeat;
     background-size: cover;
+    padding: unset;
+}
+
+.next-ai-card {
+    height: 250px;
+    color: white;
 }
 
 .next-ai-card-body {
@@ -345,9 +362,10 @@ nav {
 }
 
 .next-ai-card:hover {
-    background: url('../images/card/ai-h.webp') no-repeat;
+    background-image: linear-gradient(180deg,#fd00a96b,#fd00a9);
     background-size: cover;
     color: black;
+    border-radius: 12px;
 }
 
 .next-about-card-body:hover .next-logo-card-title {

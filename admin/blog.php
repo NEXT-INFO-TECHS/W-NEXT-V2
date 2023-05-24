@@ -48,7 +48,7 @@ $db_handle = new DBController();
                     </div>
                     <div class="card-body">
                         <div class="text-center mb-4">
-                            <a href="#" class="btn btn-primary">Add Blog</a>
+                            <a href="add-blog.php" class="btn btn-primary">Add Blog</a>
                         </div>
                         <div class="table-responsive">
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

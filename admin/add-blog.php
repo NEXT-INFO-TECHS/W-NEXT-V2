@@ -51,36 +51,36 @@ $db_handle = new DBController();
                         <h6 class="m-0 font-weight-bold text-primary">Add Blog</h6>
                     </div>
                     <div class="card-body">
-                        <form id="blog_form" enctype="multipart/form-data">
+                        <form id="blog_form" method="post" action="insert.php" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label class="form-label">Blog Title</label>
-                                <input type="text" class="form-control" id="blog_title" placeholder="" required>
+                                <input type="text" class="form-control" id="blog_title" name="blog_title" placeholder="" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Description</label>
-                                <textarea class="summernote" id="description"></textarea>
+                                <textarea class="summernote" id="summernote" name="description"></textarea>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Meta Title</label>
-                                <input type="text" class="form-control" id="meta_title" placeholder="" required>
+                                <input type="text" class="form-control" id="meta_title" name="meta_title" placeholder="" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Meta Description</label>
-                                <textarea class="form-control" id="meta_description" rows="4" required></textarea>
+                                <textarea class="form-control" id="meta_description" name="meta_description" rows="4" required></textarea>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Meta Keywords</label>
-                                <input type="text" class="form-control" id="meta_keywords" placeholder="" required>
+                                <input type="text" class="form-control" id="meta_keywords" name="meta_keywords" placeholder="" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Image</label>
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="image">
+                                    <input type="file" class="custom-file-input" id="image" name="image" required/>
                                     <label class="custom-file-label" for="image">Choose file</label>
                                 </div>
                             </div>
                             <div class="mb-4 mt-4">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" name="add_blog" class="btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -129,19 +129,6 @@ $db_handle = new DBController();
 
 <script src="vendor/summernote/summernote.min.js"></script>
 <script src="vendor/summernote/summernote-init.js"></script>
-<script>
-
-    $(document).ready(function () {
-        $('#blog_form').on('submit', function (e) {
-
-            e.preventDefault();
-
-            $('#summernote').summernote('code');
-
-        });
-    });
-
-</script>
 </body>
 
 </html>

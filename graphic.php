@@ -183,6 +183,11 @@
             line-height: 40px;
             cursor: pointer;
         }
+
+        .filter-green{
+            height: 70px;
+            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+        }
     </style>
 
     <link rel='stylesheet prefetch'
@@ -286,7 +291,7 @@
                             <div class="next-graphic-card d-flex justify-content-center align-items-center">
                                 <div class="next-graphic-card-body">
                                     <h5 class="card-title next-card-title">
-                                        <i class="fa-solid fa-box-open fa-2x"></i><br/>
+                                        <img src="assets/images/icon.svg" class="filter-green" alt=""/><br/>
                                         Logo Design
                                     </h5>
                                     <p class="card-text mt-5 next-card-content">

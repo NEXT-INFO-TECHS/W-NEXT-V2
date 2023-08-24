@@ -12,6 +12,8 @@ RewriteRule ^Privacy-Policy privacy-policy.php [NE,L]
 
 RewriteRule ^FAQ faq.php [NE,L]
 
+RewriteRule ^Graphic graphic.php [NE,L]
+
 RewriteRule ^Blog\-Details(.*) blog-details.php$1
 
 RewriteRule ^Blog blog.php [NE,L]

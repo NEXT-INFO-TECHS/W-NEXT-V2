@@ -98,34 +98,34 @@
     <div class="container pt-5">
         <div class="nav-scroller py-1 mb-2">
             <div class="nav d-flex justify-content-between">
-                <a class="p-2 text-decoration-none text-white" href="#">World</a>
-                <a class="p-2 text-decoration-none text-white" href="#">U.S.</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Technology</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Design</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Culture</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Business</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Politics</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Opinion</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Science</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Health</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Style</a>
-                <a class="p-2 text-decoration-none text-white" href="#">Travel</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">World</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">U.S.</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Technology</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Design</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Culture</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Business</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Politics</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Opinion</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Science</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Health</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Style</a>
+                <a class="p-2 text-decoration-none text-white next-blog" href="#">Travel</a>
             </div>
         </div>
 
         <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
             <div class="row">
-                <div class="col-md-6 mb-lg-0 mb-2">
+                <div class="col-md-6 mb-lg-0 mb-2 order-lg-0 order-1">
                     <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
                     <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
                         efficiently about what's most interesting in this post's contents.</p>
                     <p class="lead mb-0">
                         <a class="btn btn-success next-btn-footer mt-3" href="#">
-                            Continue reading... <i class="fa-solid fa-angle-right"></i>
+                            Continue reading <i class="fa-solid fa-angle-right"></i>
                         </a>
                     </p>
                 </div>
-                <div class="col-md-6 mb-lg-0 mb-2">
+                <div class="col-md-6 mb-lg-0 mb-2 order-lg-1 order-0">
                     <img src="https://placehold.co/600x400/000000/FFFFFF/png" class="img-fluid" alt="Card image cap">
                 </div>
             </div>
@@ -214,22 +214,22 @@
             </div>
             <div class="col-md-3 blog-sidebar">
                 <div class="p-3">
-                    <h4 class="font-italic text-white">Archives</h4>
+                    <h4 class="font-italic text-white">Keywords</h4>
                     <ol class="list-unstyled mb-0">
-                        <li><a href="#">March 2014</a></li>
-                        <li><a href="#">February 2014</a></li>
-                        <li><a href="#">January 2014</a></li>
-                        <li><a href="#">December 2013</a></li>
-                        <li><a href="#">November 2013</a></li>
-                        <li><a href="#">October 2013</a></li>
-                        <li><a href="#">December 2013</a></li>
-                        <li><a href="#">November 2013</a></li>
-                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">March 2014</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">February 2014</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">January 2014</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">December 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">November 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">October 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">December 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">November 2013</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">October 2013</a></li>
                     </ol>
                 </div>
 
                 <img src="https://placehold.co/600x600/000000/FFFFFF/png" class="img-fluid mt-2" alt="Card image cap">
-                <img src="https://placehold.co/300x550/cccccc/FFFFFF/png" class="img-fluid mt-2" alt="Card image cap">
+                <img src="https://placehold.co/600x1060/cccccc/FFFFFF/png" class="img-fluid mt-2" alt="Card image cap">
             </div><!-- /.blog-sidebar -->
         </div>
     </div>
